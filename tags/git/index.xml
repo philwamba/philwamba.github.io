@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>git on Phil Wamba</title>
+    <link>http://localhost:1313/tags/git/</link>
+    <description>Recent content in git on Phil Wamba</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 10 Jan 2020 15:56:12 +0300</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Basics of Git</title>
+      <link>http://localhost:1313/blog/basics-of-git/</link>
+      <pubDate>Fri, 10 Jan 2020 15:56:12 +0300</pubDate>
+      
+      <guid>http://localhost:1313/blog/basics-of-git/</guid>
+      <description>Git is operated from the commadline. To get started make sure you have installed git.
+Initializing Git To get started initializing git, you need to run:
+git initGit Workflow  Make change to a file. Prepare to share the changes. Share the changes.  1. Selecting a File to Share To share a file, first you need to select a file you want to share. To do this use the command:</description>
+    </item>
+    
+  </channel>
+</rss>

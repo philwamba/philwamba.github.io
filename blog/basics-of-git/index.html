@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer">
+<meta name="description" content="Phil Wamba personal blog site">
+<title>
+Basics of Git - Phil Wamba
+</title>
+
+
+
+
+<link rel="shortcut icon" href="/favicon.ico">
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/css/main.css" media="screen">
+
+
+
+ 
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,500,700&display=swap">
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Basics of Git"/>
+<meta name="twitter:description" content="Git is operated from the commadline. To get started make sure you have installed git.
+Initializing Git To get started initializing git, you need to run:
+git initGit Workflow  Make change to a file. Prepare to share the changes. Share the changes.  1. Selecting a File to Share To share a file, first you need to select a file you want to share. To do this use the command:"/>
+
+<meta property="og:title" content="Basics of Git" />
+<meta property="og:description" content="Git is operated from the commadline. To get started make sure you have installed git.
+Initializing Git To get started initializing git, you need to run:
+git initGit Workflow  Make change to a file. Prepare to share the changes. Share the changes.  1. Selecting a File to Share To share a file, first you need to select a file you want to share. To do this use the command:" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/blog/basics-of-git/" />
+<meta property="article:published_time" content="2020-01-10T15:56:12+03:00" />
+<meta property="article:modified_time" content="2020-01-10T15:56:12+03:00" /><meta property="og:site_name" content="Phil Wamba" />
+
+
+    
+
+    
+    
+    
+    <title>
+        
+        Basics of Git
+        
+    </title>
+</head>
+
+<body>
+    <div class="wrap">
+        
+        <div class="section top-menu">
+<p>
+
+
+
+
+    
+        
+            <a href="/">Home</a>
+        
+    
+    
+        
+            &#183; 
+            <a href="/blog">Blog</a>
+        
+            &#183; 
+            <a href="/about">About Me</a>
+        
+    
+ 
+    <a href="http://localhost:1313/">
+        
+    </a>
+
+</p></div>
+        
+        
+        <div class="section" id="title">Basics of Git</div>
+
+
+        <div class="section" id="content"><p>Git is operated from the commadline. To get started make sure you have installed git.</p>
+<h2 id="initializing-git">Initializing Git</h2>
+<p>To get started initializing git, you need to run:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git init
+</code></pre></div><h2 id="git-workflow">Git Workflow</h2>
+<ol>
+<li>Make change to a file.</li>
+<li>Prepare to share the changes.</li>
+<li>Share the changes.</li>
+</ol>
+<h3 id="1-selecting-a-file-to-share">1. Selecting a File to Share</h3>
+<p>To share a file, first you need to select a file you want to share. To do this use the command:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git add file_name
+</code></pre></div><h3 id="2-recording-a-selected-file">2. Recording a Selected File</h3>
+<p>In this step, we save the selected file with a message. To save the selected file we use the command:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git commit -m <span style="color:#e6db74">&#34;message&#34;</span>
+</code></pre></div><p>Where the message, which is called commit message describes the content of the commit.</p>
+<h3 id="3-the-sharing-process">3. The Sharing Process</h3>
+<p>Git uses something called  <code>remote</code> to store shared files. Developers share files by uploading and downloading from remotes.</p>
+<h3 id="4-setting-up-remote">4. Setting Up Remote</h3>
+<p>You need a remote URL in order to upload. When you add a remote, a name is required, usually devopers uses the name <code>origin</code>. More specifically, to register a remote type:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git remote add remote_name URL
+</code></pre></div><h3 id="5-uploading-files-to-a-remote">5. Uploading Files to a Remote</h3>
+<p>We upload files to a remote by running:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git push origin master
+</code></pre></div><p>Uploading like this with Git is called <code>push</code>.</p>
+<h3 id="6-downloading-files-from-a-remote">6. Downloading Files from a Remote</h3>
+<p>You can download files from a remote by running:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git pull origin master
+</code></pre></div><p>Downloading a file like this is called <code>pull</code>.</p>
+<h2 id="mastering-git">Mastering Git</h2>
+<h3 id="recognizing-modified-files">Recognizing Modified Files</h3>
+<p>It is important to recognize the changes you have made. Using  <code>git status</code>, you can display a list of modified files.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git status
+</code></pre></div><h3 id="recognizing-content-changes">Recognizing Content Changes</h3>
+<p>You can as well view content changes using the command:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git diff
+</code></pre></div><h3 id="checking-added-files">Checking Added Files</h3>
+<p>You can use <code>git status</code> again to check added files. When you run  <code>git status</code> added files will appear green and files which have not been added will appear red.</p>
+<h3 id="writing-good-commit-messages">Writing good commit messages</h3>
+<p>You should write commit messages so that when someone sees them they can understand easily what kind of changes were made. Example:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git commit -m <span style="color:#e6db74">&#34;Change subtitle color&#34;</span>
+</code></pre></div><h3 id="displaying-commit-history">Displaying Commit History</h3>
+<p>Using the command <code>git log</code>, you or anyone else can view the commit history.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git log
+</code></pre></div><p>With <code>git log</code>, you can see both the commit messages and the changes that were made. To see the changes use:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git log -p
+</code></pre></div><p>With up and down arrow, you can scroll through the changes. And to quit just press the Q key.</p>
+</div>
+
+        
+        <div class="section bottom-menu">
+<hr />
+<p>
+
+
+<p>Made with ❤️ by <a href="https://github.com/philwamba">@philwamba</a></p>
+</p></div>
+        
+
+        <div class="section footer">Phil Wamba © 2020.</div>
+    </div>
+<script data-no-instant>document.write('<script src="/livereload.js?port=1313&mindelay=10&v=2"></' + 'script>')</script></body>
+
+</html>
