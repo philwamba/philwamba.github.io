@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer">
+<meta name="description" content="Phil Wamba personal blog site">
+<title>
+Basic CLI Commands You Should Know - Phil Wamba
+</title>
+
+
+
+
+<link rel="shortcut icon" href="/favicon.ico">
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/css/main.css" media="screen">
+
+
+
+ 
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,500,700&display=swap">
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Basic CLI Commands You Should Know"/>
+<meta name="twitter:description" content="Creating a file using commandline You can create a new file using the commandline
+touch file_name.txtDisplay contents of a file You can also display the content of a file with the cat command. To use the cat command type:
+cat filename_txtCreating a directory You can create a new folder using a command as well. A folder is also called a directory. To create a directory, use the mkdir command:"/>
+
+<meta property="og:title" content="Basic CLI Commands You Should Know" />
+<meta property="og:description" content="Creating a file using commandline You can create a new file using the commandline
+touch file_name.txtDisplay contents of a file You can also display the content of a file with the cat command. To use the cat command type:
+cat filename_txtCreating a directory You can create a new folder using a command as well. A folder is also called a directory. To create a directory, use the mkdir command:" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://philwamba.github.io/blog/basic-cli-commands-you-should-know/" />
+<meta property="article:published_time" content="2020-01-09T23:55:58+03:00" />
+<meta property="article:modified_time" content="2020-01-09T23:55:58+03:00" /><meta property="og:site_name" content="Phil Wamba" />
+
+
+    
+
+    
+    
+    
+    <title>
+        
+        Basic CLI Commands You Should Know
+        
+    </title>
+</head>
+
+<body>
+    <div class="wrap">
+        
+        <div class="section top-menu">
+<p>
+
+
+
+
+    
+        
+            <a href="/">Home</a>
+        
+    
+    
+        
+            &#183; 
+            <a href="/blog">Blog</a>
+        
+            &#183; 
+            <a href="/about">About Me</a>
+        
+    
+ 
+    <a href="https://philwamba.github.io/">
+        
+    </a>
+
+</p></div>
+        
+        
+        <div class="section" id="title">Basic CLI Commands You Should Know</div>
+
+
+        <div class="section" id="content"><p><img src="/blog/cmdtools-featured-800x343.png" alt="Git"></p>
+<h3 id="creating-a-file-using-commandline">Creating a file using commandline</h3>
+<p>You can create a new file using the commandline</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">touch file_name.txt
+</code></pre></div><h3 id="display-contents-of-a-file">Display contents of a file</h3>
+<p>You can also display the content of a file with the cat command. To use the <code>cat</code> command type:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">cat filename_txt
+</code></pre></div><h3 id="creating-a-directory">Creating a directory</h3>
+<p>You can create a new folder using a command as well.
+A folder is also called a directory. To create a directory, use the <code>mkdir</code> command:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">mkdir folder_name
+</code></pre></div><h3 id="moving-between-directories">Moving between directories</h3>
+<p>You can use the <code>cd</code> command to move to other directories.By entering <code>cd folder_name</code>, you can move to the specified directory.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">cd folder_name
+</code></pre></div><h3 id="checking-the-current-directory">Checking the current directory</h3>
+<p>On the commandline it is important to know the current directory you are working in. There is a command called <code>pwd</code> used to check that. When you execute the <code>pwd</code>, all directories from the root to the current directory are shown.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">pwd
+</code></pre></div><h3 id="displaying-the-content-of-the-current-directory">Displaying the content of the current directory</h3>
+<p>When moving between directories it would be convenient if you could see the list of files and folders in the current directory. To do this you can use the <code>ls</code> command, the command will display the names of files and folder under the current directory.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">ls
+</code></pre></div><h3 id="navigating-to-the-parent-directory">Navigating to the Parent directory</h3>
+<p>You have learnt the <code>cd</code> command used to navigate between directories. If you want to navigate to the parent directory you can use special symbol <code>..</code>, like:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">cd ..
+</code></pre></div><h3 id="moving-a-filedirectory">Moving a file/directory</h3>
+<p>To move a file we use the command <code>mv</code>. By typing <code>mv file_to_move destination_dir</code>, you can move the file to a specified directory.
+To move a folder we use the command <code>mv</code>. By typing <code>mv dir_to_move destination_dir</code>, you can move the folder to a specified directory.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># Moving a file</span>
+mv file_to_move destination_dir
+
+<span style="color:#75715e"># Moving a directory</span>
+mv dir_to_move destination_dir
+</code></pre></div><h3 id="rename-a-filedirectory">Rename a file/directory</h3>
+<p>The <code>mv</code> command is used to move files and directories. You can use the <code>mv</code> command to rename a file. To rename a file you type <code>mv old_file_name new_file name</code>.
+You can also use <code>mv</code> command to rename a directory. Type <code>mv old_dir_name new_dir_name</code>.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># Renaming a file</span>
+mv old_file_name new_file name
+
+<span style="color:#75715e"># Renaming a folder</span>
+mv old_dir_name new_dir_name
+</code></pre></div><h3 id="copying-a-file">Copying a file</h3>
+<p>To copy a file use the command <code>cp</code>. You can copy a file by entering:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">cp file_to_copy new_file_name
+</code></pre></div><h3 id="copying-a-directory">Copying a directory</h3>
+<p>With the <code>cp</code> command you can also copy a directory by adding the <code>-r</code> flag, like:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">cp -r dir_to_copy new_dir_name
+</code></pre></div><h3 id="removing-a-file">Removing a file</h3>
+<p>To remove a file use the <code>rm</code> command, like:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">rm file_to_remove
+</code></pre></div><h3 id="removing-a-directory">Removing a directory</h3>
+<p>You can also remove a directory using the <code>rm</code> command by adding the <code>-r</code> option, like:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">rm -r dir_to_remove
+</code></pre></div><h3 id="the-command-history">The Command History</h3>
+<p>On the command line, you can go through the command history using the up arrow key ↑.
+This is very convenient when you want to use a command that was executed before.</p>
+</div>
+
+        
+        <div class="section bottom-menu">
+<hr />
+<p>
+
+
+<p>Made with ❤️ by <a href="https://github.com/philwamba">@philwamba</a></p>
+</p></div>
+        
+
+        <div class="section footer">Phil Wamba © 2020.</div>
+    </div>
+<script data-no-instant>document.write('<script src="/livereload.js?port=49300&mindelay=10&v=2"></' + 'script>')</script></body>
+
+</html>

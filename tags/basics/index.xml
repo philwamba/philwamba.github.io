@@ -12,7 +12,7 @@
     
     
     <item>
-      <title>Basics of Git</title>
+      <title>Getting Started: Basics of Git</title>
       <link>https://philwamba.github.io/blog/basics-of-git/</link>
       <pubDate>Fri, 10 Jan 2020 15:56:12 +0300</pubDate>
       
@@ -23,11 +23,11 @@ git initGit Workflow  Make change to a file. Prepare to share the changes. Shar
     </item>
     
     <item>
-      <title>Basics of Command Line</title>
-      <link>https://philwamba.github.io/blog/basics-of-command-line/</link>
+      <title>Basic CLI Commands You Should Know</title>
+      <link>https://philwamba.github.io/blog/basic-cli-commands-you-should-know/</link>
       <pubDate>Thu, 09 Jan 2020 23:55:58 +0300</pubDate>
       
-      <guid>https://philwamba.github.io/blog/basics-of-command-line/</guid>
+      <guid>https://philwamba.github.io/blog/basic-cli-commands-you-should-know/</guid>
       <description>Creating a file using commandline You can create a new file using the commandline
 touch file_name.txtDisplay contents of a file You can also display the content of a file with the cat command. To use the cat command type:
 cat filename_txtCreating a directory You can create a new folder using a command as well. A folder is also called a directory. To create a directory, use the mkdir command:</description>
