@@ -17,9 +17,8 @@
       <pubDate>Fri, 10 Jan 2020 15:56:12 +0300</pubDate>
       
       <guid>https://philwamba.github.io/blog/basics-of-git/</guid>
-      <description>Git is operated from the commadline. To get started make sure you have installed git.
-Initializing Git To get started initializing git, you need to run:
-git initGit Workflow  Make change to a file. Prepare to share the changes. Share the changes.  1. Selecting a File to Share To share a file, first you need to select a file you want to share. To do this use the command:</description>
+      <description>Git is the most popular and most used version-control tool by developers today. Git helps to track changes in source code during software development, and it makes your developer life a lot easier once you learn the basics.
+Git is easy to use and is operated from the command line. To get started you need to install Git. You can grab from the project site here 👉 https://git-scm.com/. Once, you are done with installation run this command from your terminal:</description>
     </item>
     
     <item>
