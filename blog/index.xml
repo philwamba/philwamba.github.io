@@ -27,7 +27,7 @@ Git is easy to use and is operated from the command line. To get started you nee
       <pubDate>Thu, 09 Jan 2020 23:55:58 +0300</pubDate>
       
       <guid>https://philwamba.github.io/blog/basic-cli-commands-you-should-know/</guid>
-      <description>Creating a file using commandline You can create a new file using the commandline
+      <description>Creating a file using command line You can create a new file using the command line
 touch file_name.txtDisplay contents of a file You can also display the content of a file with the cat command. To use the cat command type:
 cat filename_txtCreating a directory You can create a new folder using a command as well. A folder is also called a directory. To create a directory, use the mkdir command:</description>
     </item>
