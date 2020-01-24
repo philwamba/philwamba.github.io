@@ -17,8 +17,8 @@
       <pubDate>Fri, 10 Jan 2020 15:56:12 +0300</pubDate>
       
       <guid>https://philwamba.github.io/blog/basics-of-git/</guid>
-      <description>Git is the most popular and most used version-control tool by developers today. Git helps to track changes in source code during software development, and it makes your developer life a lot easier once you learn the basics.
-Git is easy to use and is operated from the command line. To get started you need to install Git. You can grab from the project site here 👉 git-scm.com. Once, you are done with installation run this command from your terminal:</description>
+      <description>Git is the most popular and most used version-control tool by developers today. Git helps to track changes in source code during software development, and it makes your developer&#39;s life a lot easier once you learn the basics.
+Git is easy to use and is operated from the command line. To get started you need to install Git. You can grab git from the project site using this link 👉 git-scm.</description>
     </item>
     
     <item>
